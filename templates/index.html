@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title>The Hunger Games</title>
+        <meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../static/css/style.css">
+		<link rel="shortcut icon" href="../static/images/mini-logo.png">
+    </head>
+    <body>
+		<script src="../static/js/jquery.js"></script>
+		<script src="../static/js/jquery.localize.js"></script>
+		<script src="../static/js/main.js"></script>
+
+		<img class="logo" title="Don't Starve Together: The Hunger Games" src="../static/images/logo.png">
+		<div id="main">
+			<img class="divider-top" src="../static/images/divider_top.png">
+			<div class="tab">
+				<a class="tab_button active" data-localize="tabs.main" >Main</a>
+				<a class="tab_button" href="/news" data-localize="tabs.news">News</a>
+				<!-- <a class="tab_button" href="/newbies" data-localize="tabs.newbies">Newbies</a> -->
+				<a class="tab_button" href="/top" data-localize="tabs.top">Top</a>
+				<a class="tab_button" href="/tributes" data-localize="tabs.tributes">Tributes</a>
+				<a class="tab_button" href="/faq" data-localize="tabs.faq">F.A.Q</a>
+				<a class="tab_button" href="/contacts" data-localize="tabs.contacts">Contacts</a>
+			</div>
+			<div id="main_border">
+				<div id="info">
+					<img class="divider-timer-top" src="../static/images/timer_divider_top.png">
+					
+					<div class="timer">
+						<p class="title" data-localize="main.untilnextgame">Next Game In:</p>
+						<p id="time"></p>
+					</div>
+	
+					<img class="divider-timer-bottom" src="../static/images/timer_divider_bottom.png">
+
+					<div id="update-progress"></div> <!--Keep it empty, add only we working on update.-->
+				</div>			
+			</div>
+			<img class="divider-bottom" src="../static/images/divider_bottom.png">
+		</div>
+		<script>translatePage(); countdown()</script>  
+    </body>
+</html>

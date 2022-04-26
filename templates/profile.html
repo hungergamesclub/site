@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+    <html lang = "en">
+    <head>
+        <title id="usertitle">The Hunger Games: Profile</title>
+        <meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../../static/css/style.css">
+		<link rel="shortcut icon" href="../static/images/mini-logo.png">
+    </head>
+    <body>
+		<script src="../static/js/jquery.js"></script>
+		<script src="../static/js/jquery.localize.js"></script>
+		<script src="../static/js/main.js"></script>
+
+		<img class="logo" title="Don't Starve Together: The Hunger Games" src="../static/images/logo.png">
+		<div id="main">
+			<img class="divider-top" src="../static/images/divider_top.png">
+			<div class="tab">
+				<a class="tab_button" href="/" data-localize="tabs.main">Main</a>
+				<a class="tab_button" href="/news" data-localize="tabs.news">News</a>
+				<!-- <a class="tab_button" href="/newbies" data-localize="tabs.newbies">Newbies</a> -->
+				<a class="tab_button" href="/top" data-localize="tabs.top">Top</a>
+				<a class="tab_button" href="/tributes" data-localize="tabs.tributes">Tributes</a>
+				<a class="tab_button" href="/faq" data-localize="tabs.faq">F.A.Q</a>
+				<a class="tab_button" href="/contacts" data-localize="tabs.contacts">Contacts</a>
+			</div>
+			<div id="main_border">
+				<div id="info">
+					<img class="divider-playerstop-top" src="../static/images/timer_divider_top.png">
+					<div id="info">
+						<div class="profile">
+	
+							<table class="playerinfo">
+								<tbody>
+									<tr>
+										<td class="avatar">
+											<div id="playeravatar" class="avatar">  </div>
+											<span id="playername" class="playername">None</span>
+										</td>
+											
+										<td>
+											<table class="statistics"> 
+												<tbody>
+													<tr>
+													</tr>
+													<tr>
+														<td data-localize="profile.rank">Rank:</td>
+														<td id="playerrating" class="digits-small"> - </td>
+													</tr>
+													
+													<tr>
+														<td data-localize="profile.games">Games: </td>
+														<td> 
+															<span id="playerallgames" class="digits-small"> - </span> 
+														</td>
+													</tr>
+													<tr>
+														<td data-localize="profile.joined" class="additional-prof-info">Joined: </td>
+														<td> 
+															<span id="playerallgamesjoined" class="digits-small"> - </span> 
+														</td>
+													</tr>		
+													<tr>
+														<td data-localize="profile.left" class="additional-prof-info">Left: </td>
+														<td> 
+															<span id="playerallgamesleft" class="digits-small"> - </span> 
+														</td>
+													</tr>	
+																								
+													<tr>
+														<td data-localize="profile.wins">Wins:</td>
+														<td>
+															<span id="playerwins" class="digits-small">-</span>
+														</td>
+													</tr>
+													
+													<tr>
+														<td data-localize="profile.defeats">Defeats:</td>
+														<td> 
+															<span id="playerdefeats" class="digits-small">-</span>
+														</td>
+													</tr>
+		
+													<tr>
+														<td data-localize="profile.winperc">Wins Percent:</td>
+														<td> 
+															<span id="playerwinperc" class="digits-small"> -%</span>
+														</td>
+													</tr>
+							
+													<tr>
+														<td data-localize="profile.killedplayers">Killed Players:</td>
+														<td id="playerkilled"> 
+															<span id = "playerkilledplayers" class="digits-small">
+														</td>
+													</tr>
+																					
+													<tr>
+														<td data-localize="profile.killedmobs">Killed Mobs:</td>
+														<td id="playerkilled"> 
+															<span class="digits-small"><span id="playerkilledmobs"></span>
+														</td>
+													</tr>
+																								
+													<tr>
+														<td data-localize="profile.deaths">Deaths:</td>
+														<td id="playerdeath"> 
+															<span class="digits-small"> - </span>
+														</td>
+													</tr>
+													
+													<!-- <tr>
+														<td>Discord:</td>
+														<td> 
+															<span class="digits-small">-<span style="color:silver;font-size:10px;">#-</span></span>      	
+														</td>
+													</tr> -->
+												</tbody>
+											</table>							
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>	
+					</div>			
+					<img class="divider-playerstop-bottom" src="../static/images/timer_divider_bottom.png">
+
+<!-- 					
+					<hr>
+					<div>
+						<b>Информация об игроке:</b>
+					</div>
+					<br>
+					<div>-</div>
+					<br> -->
+				</div>			
+				<a href="/tributes" class = "back-button"></a>
+			</div>
+			<img class="divider-bottom" src="../static/images/divider_bottom.png">
+		</div>
+		<script>
+			translatePage(); getProfileData(JSON.parse(JSON.stringify('{{ userid }}')))
+		</script>  
+    </body>
+</html>

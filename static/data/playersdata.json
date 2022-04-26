@@ -1,0 +1,44 @@
+{
+    "KU_YhiKhjfu":{
+        "name":"Cunning Fox",
+        "image": "../static/images/bigportraits/wilbur_none.png", 
+        "statistics":{
+            "rank":"3",
+            "games":{
+                "won": 0,
+                "lost": 0,
+    
+                "joined": 1,
+                "left": 2
+            },
+
+            "killed":{
+                "players": 0,
+                "mobs": 0
+            },
+
+            "death":10
+        }
+    },
+    "KU_nKBk9zZk":{
+        "name":"Asura",
+        "image": "../static/images/bigportraits/wagstaff_none.png", 
+        "statistics":{
+            "rank":"2",
+            "games":{
+                "won": 1,
+                "lost": 1,
+    
+                "joined": 1,
+                "left": 2
+            },
+
+            "killed":{
+                "players": 1,
+                "mobs": 12
+            },
+
+            "death":1
+        }
+    }
+}

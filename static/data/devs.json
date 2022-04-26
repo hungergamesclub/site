@@ -1,0 +1,42 @@
+{
+    "1":{
+        "name":"Cunning Fox",
+        "image": "../static/images/devs/developer-1",
+        "desc":"Фокс Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "links":{
+            "steam": "https://steamcommunity.com/id/FoxyTheCunningFox/",
+            "vk": "https://vk.com/cunning_fox146",
+            "discord": "https://discord.gg/BGYuqKP"
+        }
+    },
+    "2":{
+        "name":"Asura",
+        "image": "../static/images/devs/developer-2",
+        "desc":"Асура Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "links":{
+            "steam": "https://steamcommunity.com/profiles/76561198428445466/",
+            "instagram": "https://www.instagram.com/asura_dis/",
+            "vk": "https://vk.com/asura_diso",
+            "discord": "https://discord.gg/BGYuqKP"
+        }
+    },
+    "3":{
+        "name":"POWD3d4",
+        "image": "../static/images/devs/developer-3",
+        "desc":"Повд Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "links":{
+            "steam": "https://steamcommunity.com/profiles/76561198795723653/",
+            "discord": "https://discord.gg/BGYuqKP"
+        }
+    },
+    "4":{
+        "name":"JesterOK",
+        "image": "../static/images/devs/developer-4",
+        "desc":"Джестер Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "links":{
+            "steam": "https://steamcommunity.com/id/jester_ok/",
+            "discord": "https://discord.gg/BGYuqKP"
+        }
+    }
+}
+

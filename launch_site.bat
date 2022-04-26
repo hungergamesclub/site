@@ -1,0 +1,1 @@
+python C:\Users\Maks\Desktop\The_Hunger_Games_Mods\Site\main.py

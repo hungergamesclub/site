@@ -1,0 +1,640 @@
+/* * {
+	outline: 1px solid red !important;
+ } */
+html {
+	line-height:1.15;
+	-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+	cursor: auto;
+	cursor: url("../images/cursor/cursor-normal.png") 13 7, auto;
+}
+body::-webkit-scrollbar {
+	width: 30px;
+	height: 15px;
+}
+
+body::-webkit-scrollbar-button {
+	width: 30px;
+	height: 50px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+body::-webkit-scrollbar-button:vertical:increment {
+	background-image: url("../images/scrollbar_arrow_down.png");
+}
+body::-webkit-scrollbar-button:vertical:decrement {
+	background-image: url("../images/scrollbar_arrow_up.png");
+}
+body::-webkit-scrollbar-button:horizontal:increment {
+	background-image: url("../images/scrollbar_arrow_up.png");
+}
+body::-webkit-scrollbar-button:horizontal:decrement {
+	background-image: url("../images/scrollbar_arrow_down.png");
+}
+body::-webkit-scrollbar-thumb {
+	border: 0px none #ffffff;
+	border-radius: 0px;
+	border-style: solid;
+}
+body::-webkit-scrollbar-thumb:vertical {
+	border-width: 16px 16px 16px 16px;
+	-moz-border-image: url("../images/scrollbar_handle.png") 25 16 25 16 stretch;
+	-webkit-border-image: url("../images/scrollbar_handle.png") 25 16 25 16 stretch;
+	-o-border-image: url("../images/scrollbar_handle.png") 25 16 16 16 stretch;
+	border-image: url("../images/scrollbar_handle.png") 25 16 25 16 fill stretch;
+}
+body::-webkit-scrollbar-thumb:horizontal {
+	border-width: 7px 9px;
+	-moz-border-image: url("../images/cursor/cursor-normal_horizontal.png") 7 9 stretch;
+	-webkit-border-image: url("../images/cursor/cursor-normal_horizontal.png") 7 9 stretch;
+	-o-border-image: url("../images/cursor/cursor-normal_horizontal.png") 7 9 stretch;
+	border-image: url("../images/cursor/cursor-normal_horizontal.png") 7 9 fill stretch;
+}
+body::-webkit-scrollbar-track {
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 0px;
+}
+body::-webkit-scrollbar-track:vertical {
+	background-size: 17px 100%;
+	background-image: url("../images/scrollbar_bar.png");
+}
+body::-webkit-scrollbar-track:horizontal {
+	background-size: 100% 7px;
+	background-image: url("../images/cursor/cursor-normal_horizontal.png");
+}
+body::-webkit-scrollbar-corner {
+	background: transparent;
+}
+
+body {
+    overflow: overlay;
+    margin:0;
+	background-image: url("../images/background.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center bottom;
+	position: relative;
+}
+
+.logo {
+	display: block;
+	margin-top: 55px;
+	margin-right: auto;
+	margin-bottom: 55px;
+	margin-left: auto;
+}
+
+#main {
+	font-size: 15px;
+}
+
+#main * {
+	font-family: 'hammerhead', serif;
+	color: #f5f3de99;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+
+#main_border {
+	display: block;
+	background-color: #503d2799; 
+	width: 60%;
+	position: relative;
+	padding: 1% 0 1% 0;
+	box-shadow: 5px 15px 15px black;
+	min-height: 500px;
+}
+
+#info {
+	display: block;
+	width: 90%;
+	position: relative;
+}
+
+#info .timer {
+	flex: 1;
+	text-align: center;
+	font-size: 35px;
+	background-color: #19191966; 
+	width: 60%;
+	position: relative;
+	padding: 1% 0 1% 0;
+	box-shadow: 5px 15px 15px black;
+}
+
+#info .top-players {
+	flex: 1;
+	font-size: 25px;
+	width: 90%;
+	background-color: #19191966; 
+	position: relative;
+	padding: 1% 0 1% 0;
+	box-shadow: 5px 15px 15px black;
+}
+
+#info .player-container {
+	display: flex;
+	flex-direction: row;
+	background-size: 95% 100%;
+	background-position: center;
+	background-image: url("../images/achievement_backing.png");
+	background-repeat: no-repeat;
+	margin: 2%;
+    cursor: pointer;
+    cursor: url("../images/cursor/cursor-click.png") 13 7, pointer;
+}
+
+#info .player-container:hover {
+	background-image: url("../images/achievement_backing_selected.png");
+}
+
+#info .player-container-selected {
+	display: flex;
+	flex-direction: row;
+	background-size: 95% 100%;
+	background-position: center;
+	background-image: url("../images/achievement_backing_selected.png");
+	background-repeat: no-repeat;
+	margin: 2%;
+}
+
+#info .player-container li {
+	list-style-type: none;
+	line-height: 1.5;
+	margin-left: 0;
+	background-position: center bottom;
+}
+
+#info .player-container-selected li {
+	list-style-type: none;
+	line-height: 1.5;
+	margin-left: 0;
+	background-position: center bottom;
+}
+
+.divider-top {
+	display: block;
+	width: 62%;
+	filter: drop-shadow(5px 15px 15px black);
+}
+
+.divider-bottom {
+	display: block;
+	width: 62%;
+	filter: drop-shadow(5px 15px 15px black);
+}
+
+.divider-timer-top {
+	display: block;
+	width: 62%;
+	filter: drop-shadow(5px 15px 15px black);
+}
+
+.divider-timer-bottom {
+	display: block;
+	width: 65%;
+	filter: drop-shadow(5px 15px 15px black);
+}
+
+.divider-playerstop-top {
+	display: block;
+	width: 93%;
+	filter: drop-shadow(5px 15px 15px black);
+}
+
+.divider-playerstop-bottom {
+	display: block;
+	width: 97%;
+	filter: drop-shadow(5px 15px 15px black);
+}
+
+.top-header {
+	display: block;
+	text-align: center;
+	font-size: 50px;
+}
+
+.locked {
+	background-image: url("../images/lock.png");
+	background-repeat: no-repeat;
+	padding: 20px;
+	text-align: left;
+    cursor: pointer;
+    cursor: url("../images/cursor/cursor-click.png") 13 7, pointer;
+	transition: 0.3s;
+	font-size: 20px;
+	text-decoration: none;
+	color: #d7d29d;
+}
+
+.tab {
+	display: block;
+	margin-top: 3%;
+	float: right;
+	width: 20%;
+	font-family: 'hammerhead', serif;
+	color: #d7d29d;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	position:relative;
+}
+
+.tab_button {
+	display: block;
+	background-image: url("../images/button_normal.png");
+	background-repeat: no-repeat;
+	padding: 20px;
+	text-align: left;
+    cursor: pointer;
+    cursor: url("../images/cursor/cursor-click.png") 13 7, pointer;
+	transition: 0.3s;
+	font-size: 20px;
+	text-decoration: none;
+	color: #d7d29d;
+}
+
+.tab_button:hover {
+	display: block;
+	background-image: url("../images/button_selected.png");
+	color: #191919 !important;
+}
+
+.active {
+	background-image: url("../images/button_selected.png");
+	color: #191919 !important;
+	cursor: auto;
+}
+
+#progressbar {
+	display: flex;
+	flex-direction: row;
+	height: 50px;
+	background-size: 100% 100%;
+	background-position: center;
+	background-image: url("../images/progressbar_wxplarge_frame.png");
+	background-repeat: no-repeat;
+	margin: 1%;
+}
+  
+#progressbar-progress {
+	width: 100%;
+	height: 50px;
+	background-size: 100% 60%;  /* Change this when u want make progress bar */
+	background-image: url("../images/progressbar_wxplarge_fill.png");
+	background-repeat: no-repeat;
+	background-position: center left;
+	margin-top: 0.2%;
+	margin-left: 3%;
+	margin-right: 2%;
+}
+  
+.progressbar-info {
+	text-align: center;
+}
+
+.question-block {
+	display: block;
+	flex: 1;
+	font-size: 20px;
+	float: center;
+	width: 100%;
+	background-color: #19191966; 
+	position: relative;
+	padding: 1% 0 1% 0;
+	box-shadow: 5px 15px 15px black;
+}
+
+.question-block li {
+	display: block;
+	background-size: 95% 100%;
+	background-position: center;
+	background-image: url("../images/achievement_backing.png");
+	background-repeat: no-repeat;
+	margin: 1%;
+	padding: 5%;
+}
+
+.question-block p {
+	display: block;
+	background-size: 95% 100%;
+	background-position: center;
+	background-image: url("../images/achievement_backing_selected.png");
+	background-repeat: no-repeat;
+	margin: 1%;
+	padding: 5%;
+}
+
+.question-mark:before {
+    position: absolute;
+    content: '';
+    left: -5%;
+    width: 150px; 
+    height: 150px; 
+    background-repeat: no-repeat;
+    background-image: url('../images/question.png');
+    background-size: 30% 30%;
+}
+
+.answer-mark:before {
+    position: absolute;
+    content: '';
+    left: -5%;
+    width: 150px; 
+    height: 150px; 
+    background-repeat: no-repeat;
+    background-image: url('../images/correct.png');
+    background-size: 30% 30%;
+}
+
+#info .news {
+	display: block;
+	flex: 1;
+	font-size: 25px;
+	width: 90%;
+	background-color: #19191966; 
+	position: relative;
+	padding: 1% 0 1% 0;
+	box-shadow: 5px 15px 15px black;
+}
+
+#info .newsheader {
+	position: relative;
+	background-size: 95% 100%;
+	background-position: center;
+	background-image: url("../images/news-header.png");
+	background-repeat: no-repeat;
+	margin: 1%;
+	padding: 5%;
+	text-align: center;
+	font-size: 35px;
+}
+
+#info .newsimage {
+	text-align: center;
+}
+
+#info .newsdesc {
+	margin: 1%;
+	padding: 5%;
+	font-size: 17px;
+}
+
+#info .news-small-info {
+	padding: 1%;
+	font-size: 17px;
+}
+
+#info .news-img-box {
+	display: flex;
+	justify-content: center;
+	background-color: #19191966; 
+	width: 78%;
+	height: 150px;
+	position: relative;
+	box-shadow: 5px 15px 15px black;
+	contain: content;
+}
+
+.divider-news-img-top {
+	display: block;
+	width: 81%;
+	filter: drop-shadow(5px 15px 15px black);
+}
+
+.divider-news-img-bottom {
+	display: block;
+	width: 84%;
+	filter: drop-shadow(5px 15px 15px black);
+}
+
+#info .news-addit-info {
+	position: relative;
+	background-size: 40% 80%;
+	background-position: center;
+	background-image: url("../images/listitem_thick_normal.png");
+	background-repeat: no-repeat;
+	margin: 1%;
+	padding: 3%;
+	text-align: center;
+	font-size: 25px;
+}
+
+#info .news-addit-info img {
+	width: 7.5%;
+	margin-bottom: -20px;
+}
+
+#info .news-addit-info p {
+	margin-bottom: 0;
+}
+
+.news-small-info:before {
+    position: absolute;
+    content: '';
+    left: -3%;
+    width: 150px; 
+    height: 150px; 
+    background-repeat: no-repeat;
+    background-image: url('../images/scrollbar_handle.png');
+    background-size: 10% 10%;
+}
+.news-small-info {
+    content: '';
+}
+
+.news-buttons {
+	overflow:hidden;
+	width:50%;
+}
+
+.news-button-left {
+	content: url("../images/arrow2_left.png");
+	float:left;
+    cursor: pointer;
+    cursor: url("../images/cursor/cursor-click.png") 13 7, pointer;
+}
+
+.news-button-left:hover {
+	content: url("../images/arrow2_left_over.png");
+	float:left;
+}
+
+.news-button-right {
+	content: url("../images/arrow2_right.png");
+	float:right;
+    cursor: pointer;
+    cursor: url("../images/cursor/cursor-click.png") 13 7, pointer;
+}
+
+.news-button-right:hover {
+	content: url("../images/arrow2_right_over.png");
+	float:right;
+}
+
+.news-pointers {
+	width:10%;
+}
+
+.devsicon {
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 75px;
+	transition: 0.1s;
+    cursor: pointer;
+    cursor: url("../images/cursor/cursor-click.png") 13 7, pointer;
+}
+
+.devsicon:hover {
+	background-image: url("../images/devs/developer-1-hover.png");
+}
+
+.devsicons {
+	display: flex !important;
+	flex-wrap: wrap !important;
+	text-align: center;
+}
+
+.devsicons>* {
+	flex: 100 100 100 !important;
+}
+
+.devs-info-block {
+	flex: 1;
+	font-size: 20px;
+	float: center;
+	width: 90%;
+	background-color: #19191966; 
+	position: relative;
+	padding: 1% 0 1% 0;
+	box-shadow: 5px 15px 15px black;
+}
+
+#info .dev-name {
+	position: relative;
+	background-size: 55% 100%;
+	background-position: center;
+	background-image: url("../images/news-header.png");
+	background-repeat: no-repeat;
+	margin: 1%;
+	padding: 5%;
+	text-align: center;
+	font-size: 35px;
+}
+
+.devlink {
+	background-position: center;
+	background-image: url("../images/button_carny_square_normal.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 80px;
+	height: 80px;
+	transition: 0.1s;
+    cursor: pointer;
+    cursor: url("../images/cursor/cursor-click.png") 13 7, pointer;
+}
+
+.devlink:hover {
+	background-image: url("../images/button_carny_square_hover.png");
+}
+
+.profile {
+	display: block;
+	flex: 1;
+	font-size: 20px;
+	float: center;
+	width: 100%;
+	background-color: #19191966; 
+	position: relative;
+	padding: 1% 0 1% 0;
+	box-shadow: 5px 15px 15px black;
+}
+
+td.avatar{
+	vertical-align: bottom;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+div.avatar{ 
+	display: block;
+	background-image:url("../images/bigpotraits/unknown.png");
+	background-size: 100%;
+	background-position: center top;
+	background-repeat: no-repeat;
+	width:221px;
+	height:290px;
+}
+
+table.statistics{
+	border: none;
+	border-collapse: separate;  
+	border-spacing: 0 5px;
+	width:425px;
+}
+
+table.statistics tr {
+	border: none;
+	padding-top: 2px;
+	padding-left: 20px;
+	background-size: 95% 100%;
+	background-position: center;
+	background-image: url("../images/achievement_backing.png");
+	background-repeat: no-repeat;
+}
+table.statistics td {
+	border-collapse: separate;
+	border-spacing: 0 115px;
+	padding-top: 2px;
+	padding-left: 20px;
+}
+
+table.statistics td:nth-child(1){
+	font-weight: bold;
+}
+
+tr.playerinfo>td:nth-child(2){
+	vertical-align: top;
+	padding-top:40px;
+}
+
+span.playername{
+	display: block;
+	max-width: 165px;
+	height: 27px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	background-image:url("../images/bigpotraits/unknown.png");
+	background-size: 100%;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+.additional-prof-info{
+	font-weight: normal !important;
+	display: block;
+	max-width: 315px;
+}
+
+.back-button {
+	content:url("../images/submit.png");
+	background-position: center;
+	background-image: url("../images/button_carny_square_normal.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 80px;
+	height: 80px;
+	transition: 0.1s;
+    cursor: pointer;
+    cursor: url("../images/cursor/cursor-click.png") 13 7, pointer;
+}
+
+.back-button:hover {
+	background-image: url("../images/button_carny_square_hover.png");
+}

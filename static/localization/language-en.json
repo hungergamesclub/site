@@ -1,0 +1,162 @@
+{
+    "title": "The Hunger Games",
+
+    "main":{
+        "untilnextgame": "Next Game In:",
+        "gamesstarted": "Games Started!",
+        
+        "datedata":{
+            "days":[
+                "Day",
+                "Days",
+                "Days"
+            ],
+            "hours":[
+                "Hour",
+                "Hours",
+                "Hours"
+            ],
+            "minutes":[
+                "Minute",
+                "Minutes",
+                "Minutes"
+            ],
+            "second":[
+                "Second",
+                "Seconds",
+                "Seconds"
+            ]
+        }
+    },
+
+    "tabs": {
+        "main": "Main",
+        "news": "News",
+        "newbies": "Newbies",
+        "top": "Top",
+        "tributes": "Tributes",
+        "faq": "F.A.Q",
+        "contacts": "Contacts"
+    },
+
+    "players-top": {
+        "title": "Best Tributes",
+
+        "name": "Name",
+        "rank": "Rank"
+    },
+
+    "tributes": {
+        "title": "Tributes List",
+
+        "name": "Name",
+        "rank": "Rank"
+    },
+
+    "profile": {
+        "rank": "Rank: ",
+
+        "games": "Games:",
+        "joined": "Joined:",
+        "left": "Left:",
+        "wins": "Wins:",
+        "defeats": "Defeats:",
+        "winperc": "Wins Percent:",
+        "killedplayers": "Killed Players:",
+        "killedmobs": "Killed Mobs:",
+        "deaths": "Deaths:"
+    },
+
+    "faq":{
+        "title": "Frequently Asked Questions",
+
+        "1": {
+            "question": "My game has crashed, what should I do?",
+            "answer": "Do not launch the game again, copy the log file and send it to one of the developers."
+        },
+
+        "2": {
+            "question": "Where can I find my log?",
+            "answer": "Follow the path below and find the file client_log.txt <br>(%USERNAME% replace with your username)"
+        },
+
+        "3": {
+            "question": "How can I contact the developers?",
+            "answer": "You can contact one of the developers using our Discord, VK, Instagram. All links can be found in the tab \"Contacts\""
+        },
+
+        "4": {
+            "question": "Some of my mods do not work or work incorrectly, what should I do?",
+            "answer": "Our server has an anti-cheat system installed, it blocks mods that give you an advantage over other players."
+        },
+
+        "5": {
+            "question": "I noticed a player who uses game bugs to his advantage, what should I do?",
+            "answer": "Collect enough evidence and provide it to one of the developers or moderators."
+        },
+
+        "6": {
+            "question": "I want to cooperate!",
+            "answer": "If you want to help the project in some way - contact one of the developers and provide a small dossier about yourself."
+        }
+    },
+
+    "contacts": {
+        "title": "Developers",
+
+        "desc": "Description",
+        "links": "Links",
+
+        "asura": {
+            "desc":""
+        },
+        
+        "cunningfox": {
+            "desc":""
+        },
+
+        "powd": {
+            "desc":""
+        },
+
+        "jester": {
+            "desc":""
+        }
+    },
+
+    "news": {
+        "title": "News",
+
+        "added": "What's Added:",
+        "improved": "What's Improved:",
+        "removed": "What's Removed:",
+        "fixed": "What's Fixed:",
+
+        "posts":{
+            "1":{
+                "title":"The Great Start!",
+                "addings":[
+                    "Temporary news."
+                ],
+                "postdesc":"Happy Hunger Games22!"
+            },
+            "2":{
+                "title":"The Hunger Games: Grand Final!", 
+                "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "addings":[
+                    "Temporary news."
+                ],
+                "improvements":[
+                    "Temporary news."
+                ],
+                "removes":[
+                    "Temporary news."
+                ],
+                "bugfixes":[
+                    "Temporary news."
+                ],
+                "postdesc":"Happy Hunger Games!"
+            }
+        }
+    }
+}
